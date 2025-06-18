@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Movie Analyzer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <script defer src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <h1>AI Movie Analyzer</h1>
+    <div class="search-box">
+        <input id="searchInput" type="text" placeholder="Search for a movie…">
+        <button id="searchBtn">Search</button>
+    </div>
+    <div id="results" class="container">
+        <!-- movie cards injected by JS -->
+    </div>
+</body>
+</html>
