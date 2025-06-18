@@ -29,3 +29,58 @@ An AI-powered web app that helps users explore, search, and analyze the **Top 10
 | OpenAI API   | AI summary generation            |
 | HTML/CSS     | Frontend                         |
 
+
+
+## 📁 Folder Structure
+
+ai-movie-analyzer/
+├── app.py # Flask backend
+├── templates/
+│ └── index.html # Frontend HTML
+├── static/
+│ └── style.css # CSS styles
+├── requirements.txt # Python dependencies
+└── README.md # This file
+
+
+
+---
+
+## 🚀 How to Run Locally
+
+1. **Clone the repo**:
+   ```bash
+   git clone https://github.com/yourusername/ai-movie-analyzer.git
+   cd ai-movie-analyzer
+Install dependencies:
+
+
+pip install -r requirements.txt
+Set your MongoDB connection in app.py or with an environment variable:
+
+
+client = MongoClient(os.environ.get("MONGODB_URI"))
+Run the app:
+
+
+python app.py
+Open your browser and go to http://localhost:5000
+
+📦 Dataset
+Source: IMDb Top 1000 Dataset
+
+Uploaded into MongoDB using MongoDB Compass
+
+🌐 Live Demo-----
+🌍 Live App on Render----https://ai-movie-analyzer.onrender.com
+
+📽 Demo Video
+🎬 Watch 3-min YouTube Demo
+
+📜 License
+MIT License. Free to use and modify for learning and hackathons.
+
+🙌 Built With Love by [Amisha Bhasme]
+
+
+
