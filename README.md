@@ -71,7 +71,9 @@ Source: IMDb Top 1000 Dataset
 
 Uploaded into MongoDB using MongoDB Compass
 
-🌐 Live Demo-----
+🌐 Live Demo-----https://youtu.be/BLEDHDfxgiI
+
+
 🌍 Live App on Render----https://ai-movie-analyzer.onrender.com
 
 📽 Demo Video
